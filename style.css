@@ -1,0 +1,58 @@
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+ .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 200px;
+    height: 440px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+
+
+  .card-bord{
+    background: #1d1e22;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+    border-radius: 6px;
+  }
+  
+  .completed{
+    height:100vh;
+    width: 100%;
+    position: relative;
+    background: #1010117c;
+  }
+
+  .fondo{
+    background: linear-gradient(109.61deg ,#4c4f5a 4.26%,#202125 84.84%);
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+  }
