@@ -11,11 +11,12 @@ jobs:
     steps:
     - name: Commit files
       run: |
+        git config remote.origin.url https://github.com/cartolin/cartolin.github.io.git
         git config --local user.email "cartolin.fidel@gmail.com"
         git config --local user.name "cartolin"
         git commit -m "Add changes"
     - name: Push changes
       uses: ad-m/github-push-action@main
       with:
-        github_token: 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
+        github_token: ${{ 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 }}
         branch: ${{ main }}
