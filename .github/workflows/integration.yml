@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Commit files
       run: |
@@ -18,5 +18,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@main
       with:
-        github_token: ${{ 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 }}
+        github_token: ${{ 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 }}
         branch: ${{ main }}
